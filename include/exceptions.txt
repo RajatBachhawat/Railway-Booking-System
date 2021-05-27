@@ -1,0 +1,36 @@
+#include <exception>
+
+using namespace std;
+
+Exceptions (inherits std::exception)
++---Bad_Date //top-level exception class for bad date construction
+|   +---Invalid_Format //invalid format
+|   +---Invalid_Year //year to be between 1900 and 2099
+|   +---Invalid_Month //invalid month (not between 1 - 12)
+|   +---Invalid_Day //invalid date (for the corresponding month and year)
+|       
++---Bad_Station //top-level exception class for bad station construction
+|   +---Bad_Station_Name //Station name cannot be empty
+|       
++---Bad_Railways //top-level exception class for bad railways construction
+|   +---Duplicate_Station //duplicate stations not allowed
+|   +---Incomplete_Distance_Information //distance not defined between all pairs of stations
+|   +---Distance_Not_Defined //distance between two same stations is not defined
+|       
++---Bad_Passenger //top level exception class for bad passenger construction
+|   +---Bad_Name //name not entered according to rules
+|   +---Bad_Age //age must be >0, i.e., dob must be before the date today
+|   +---Bad_Aadhar_Number //should be validated for absence of non-digit and length
+|   +---Bad_Mobile_Number //should be validated, if provided, for absence of non-digit and length
+|       
++---Bad_Booking //top level exception class for bad booking construction
+    +---Invalid_Station //station entered is non existent in the master data
+    +---Bad_Chronology //dob < Date::Today() [date of reservation] < date of booking (not more than 1 year after date of reservation) 
+    +---Ineligible_Passenger //passenger ineligible to book in entered category
+        +---Ineligible_Ladies_Category //ineligible for ladies category
+        +---Ineligible_SeniorCitizen_Category //ineligible for senior citizen category
+        +---Ineligible_Divyaang_Category //ineligible for divyaang category
+        +---Ineligible_Tatkal_Category //ineligible for tatkal category
+        +---Ineligible_PremiumTatkal_Category //ineligible for premium tatkal category
+
+

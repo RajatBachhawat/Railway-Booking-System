@@ -1,0 +1,430 @@
+
+
+Class - BookingClasses
+
+Test No. 1: AC3Tier::GetLoadFactor() returns the correct load factor: PASS
+Test No. 2: AC3Tier::GetName() returns the correct name: PASS
+Test No. 3: AC3Tier::IsAC() returns correct AC status: PASS
+Test No. 4: AC3Tier::IsLuxury() returns correct luxury status: PASS
+Test No. 5: AC3Tier::IsSitting() returns correct sitting status: PASS
+Test No. 6: AC3Tier::GetNumberOfTiers() returns the correct number of tiers: PASS
+Test No. 7: AC3Tier::GetReservationCharge() returns the correct reservation charge: PASS
+Test No. 8: AC3Tier::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+Test No. 9: AC3Tier::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+Test No. 10: AC3Tier::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+Test No. 11: AC3Tier::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+Test No. 12: Sleeper::GetLoadFactor() returns the correct load factor: PASS
+Test No. 13: Sleeper::GetName() returns the correct name: PASS
+Test No. 14: Sleeper::IsAC() returns correct AC status: PASS
+Test No. 15: Sleeper::IsLuxury() returns correct luxury status: PASS
+Test No. 16: Sleeper::IsSitting() returns correct sitting status: PASS
+Test No. 17: Sleeper::GetNumberOfTiers() returns the correct number of tiers: PASS
+Test No. 18: Sleeper::GetReservationCharge() returns the correct reservation charge: PASS
+Test No. 19: Sleeper::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+Test No. 20: Sleeper::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+Test No. 21: Sleeper::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+Test No. 22: Sleeper::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+Test No. 23: AC2Tier::GetLoadFactor() returns the correct load factor: PASS
+Test No. 24: AC2Tier::GetName() returns the correct name: PASS
+Test No. 25: AC2Tier::IsAC() returns correct AC status: PASS
+Test No. 26: AC2Tier::IsLuxury() returns correct luxury status: PASS
+Test No. 27: AC2Tier::IsSitting() returns correct sitting status: PASS
+Test No. 28: AC2Tier::GetNumberOfTiers() returns the correct number of tiers: PASS
+Test No. 29: AC2Tier::GetReservationCharge() returns the correct reservation charge: PASS
+Test No. 30: AC2Tier::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+Test No. 31: AC2Tier::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+Test No. 32: AC2Tier::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+Test No. 33: AC2Tier::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+Test No. 34: ACFirstClass::GetLoadFactor() returns the correct load factor: PASS
+Test No. 35: ACFirstClass::GetName() returns the correct name: PASS
+Test No. 36: ACFirstClass::IsAC() returns correct AC status: PASS
+Test No. 37: ACFirstClass::IsLuxury() returns correct luxury status: PASS
+Test No. 38: ACFirstClass::IsSitting() returns correct sitting status: PASS
+Test No. 39: ACFirstClass::GetNumberOfTiers() returns the correct number of tiers: PASS
+Test No. 40: ACFirstClass::GetReservationCharge() returns the correct reservation charge: PASS
+Test No. 41: ACFirstClass::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+Test No. 42: ACFirstClass::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+Test No. 43: ACFirstClass::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+Test No. 44: ACFirstClass::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+Test No. 45: FirstClass::GetLoadFactor() returns the correct load factor: PASS
+Test No. 46: FirstClass::GetName() returns the correct name: PASS
+Test No. 47: FirstClass::IsAC() returns correct AC status: PASS
+Test No. 48: FirstClass::IsLuxury() returns correct luxury status: PASS
+Test No. 49: FirstClass::IsSitting() returns correct sitting status: PASS
+Test No. 50: FirstClass::GetNumberOfTiers() returns the correct number of tiers: PASS
+Test No. 51: FirstClass::GetReservationCharge() returns the correct reservation charge: PASS
+Test No. 52: FirstClass::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+Test No. 53: FirstClass::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+Test No. 54: FirstClass::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+Test No. 55: FirstClass::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+Test No. 56: ACChairCar::GetLoadFactor() returns the correct load factor: PASS
+Test No. 57: ACChairCar::GetName() returns the correct name: PASS
+Test No. 58: ACChairCar::IsAC() returns correct AC status: PASS
+Test No. 59: ACChairCar::IsLuxury() returns correct luxury status: PASS
+Test No. 60: ACChairCar::IsSitting() returns correct sitting status: PASS
+Test No. 61: ACChairCar::GetNumberOfTiers() returns the correct number of tiers: PASS
+Test No. 62: ACChairCar::GetReservationCharge() returns the correct reservation charge: PASS
+Test No. 63: ACChairCar::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+Test No. 64: ACChairCar::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+Test No. 65: ACChairCar::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+Test No. 66: ACChairCar::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+Test No. 67: SecondSitting::GetLoadFactor() returns the correct load factor: PASS
+Test No. 68: SecondSitting::GetName() returns the correct name: PASS
+Test No. 69: SecondSitting::IsAC() returns correct AC status: PASS
+Test No. 70: SecondSitting::IsLuxury() returns correct luxury status: PASS
+Test No. 71: SecondSitting::IsSitting() returns correct sitting status: PASS
+Test No. 72: SecondSitting::GetNumberOfTiers() returns the correct number of tiers: PASS
+Test No. 73: SecondSitting::GetReservationCharge() returns the correct reservation charge: Test No. 74: SecondSitting::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+Test No. 75: SecondSitting::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+Test No. 76: SecondSitting::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+Test No. 77: SecondSitting::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+Test No. 78: ExecutiveChairCar::GetLoadFactor() returns the correct load factor: PASS
+Test No. 79: ExecutiveChairCar::GetName() returns the correct name: PASS
+Test No. 80: ExecutiveChairCar::IsAC() returns correct AC status: PASS
+Test No. 81: ExecutiveChairCar::IsLuxury() returns correct luxury status: PASS
+Test No. 82: ExecutiveChairCar::IsSitting() returns correct sitting status: PASS
+Test No. 83: ExecutiveChairCar::GetNumberOfTiers() returns the correct number of tiers: PASS
+Test No. 84: ExecutiveChairCar::GetReservationCharge() returns the correct reservation charge: PASS
+Test No. 85: ExecutiveChairCar::GetTatkalLoadFactor() returns the correct tatkal load factor: PASS
+Test No. 86: ExecutiveChairCar::GetMinTatkalCharge() returns the correct minimum tatkal charge: PASS
+Test No. 87: ExecutiveChairCar::GetMaxTatkalCharge() returns the correct maximum tatkal charge: PASS
+Test No. 88: ExecutiveChairCar::GetMinTatkalDist() returns the correct minimum tatkal distance: PASS
+Test No. 89: Output streaming operator for BookingClasses<T> (BookingClasses::AC2Tier): PASS
+Test No. 90: Testing the correct working of polymorphic heirarchy (using GetName()): PASS
+Test No. 91: Output streaming operator for BookingClasses: PASS
+
+----- VERDICT : PASS -----
+
+
+Class - BookingClasses
+
+Test No. 1:  BookingCategory::General::Eligibility throws correct error : PASS
+ Exception thrown: Error in Booking: Date of Reservation must be either same as or before date of Booking
+Test No. 2:  BookingCategory::General::Eligibility throws correct error : PASS
+ Exception thrown: Error in Booking: Date of Booking should be within 1 year of date of Reservation
+Test No. 3:  BookingCategory::General::Eligibility allows eligible passenger : PASS
+Test No. 4:  BookingCategory::Ladies::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Booking: Date of Reservation must be either same as or before date of Booking
+Test No. 5:  BookingCategory::Ladies::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Booking: Date of Booking should be within 1 year of date of Reservation
+Test No. 6:  BookingCategory::Ladies::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Ladies Booking: Male of Age greater than 12
+Test No. 7:  BookingCategory::Ladies::Eligibility allows eligible passenger : PASS
+Test No. 8:  BookingCategory::SeniorCitizen::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Booking: Date of Reservation must be either same as or before date of Booking
+Test No. 9:  BookingCategory::SeniorCitizen::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Booking: Date of Booking should be within 1 year of date of Reservation
+Test No. 10:  BookingCategory::SeniorCitizen::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Senior Citizen Booking: Male of Age less than 60 years
+Test No. 11:  BookingCategory::SeniorCitizen::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Senior Citizen Booking: Female of Age less than 58 years
+Test No. 12:  BookingCategory::SeniorCitizen::Eligibility allows eligible passenger : PASS
+Test No. 13:  BookingCategory::DivyaangCat::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Booking: Date of Reservation must be either same as or before date of Booking
+Test No. 14:  BookingCategory::DivyaangCat::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Booking: Date of Booking should be within 1 year of date of Reservation
+Test No. 15:  BookingCategory::DivyaangCat::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Divyaang Booking: Passenger does not have a valid Disability Type and/or DivyaangID
+Test No. 16:  BookingCategory::DivyaangCat::Eligibility allows eligible passenger : PASS
+Test No. 17:  BookingCategory::Tatkal::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Booking: Date of Reservation must be either same as or before date of Booking
+Test No. 18:  BookingCategory::Tatkal::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Booking: Date of Booking should be within 1 year of date of Reservation
+Test No. 19:  BookingCategory::Tatkal::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Tatkal Booking: Tatkal Booking attempted with a gap greater than 1 Day
+Test No. 20:  BookingCategory::Tatkal::Eligibility allows eligible passenger : PASS
+Test No. 21:  BookingCategory::PremiumTatkal::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Booking: Date of Reservation must be either same as or before date of Booking
+Test No. 22:  BookingCategory::PremiumTatkal::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Booking: Date of Booking should be within 1 year of date of Reservation
+Test No. 23:  BookingCategory::PremiumTatkal::Eligibility Correct error thrown : PASS
+ Exception thrown: Error in Premium Tatkal Booking: Premium Tatkal Booking attempted with a gap greater than 1 Day
+Test No. 24:  BookingCategory::Tatkal::Eligibility allows eligible passenger : PASS
+Test No. 25:  BookingCategory method ReserveInCategory allows eligible passenger : PASS
+Test No. 26: BookingCategory method ReserveInCategory throws error for ineligible passenger : PASS
+Test No. 27: Output streaming operator for BookingCategoryTypes<T> : PASS
+Test No. 28: working of polymorphic hierarchy for BookingCategoryTypes<T> : PASS
+Test No. 29: Output streaming operator for BookingCategoryTypes<T> : PASS
+
+----- VERDICT : PASS -----
+
+
+Class - Booking
+
+Test No. 1: Booking::Reserve() is working properly: PASS
+Test No. 2: Booking::Reserve() is working properly: PASS
+Test No. 3: Booking::Reserve() throws the correct exception: PASS
+    Exception message - Error in Booking: From and To Station cannot be the same Station
+Test No. 4: Booking::Ladies::ComputeFare() has correct fare calculation: PASS
+Test No. 5: Booking::General::ComputeFare() has correct fare calculation: PASS
+Test No. 6: Booking::General::ComputeFare() has correct fare calculation: PASS
+Test No. 7: Booking::SeniorCitizen::ComputeFare() has correct fare calculation: PASS
+Test No. 8: Booking::SeniorCitizen::ComputeFare() has correct fare calculation: PASS
+Test No. 9: Booking::DivyaangCat::ComputeFare() has correct fare calculation: PASS
+Test No. 10: Booking::DivyaangCat::ComputeFare() has correct fare calculation: PASS
+Test No. 11: Booking::Tatkal::ComputeFare() has correct fare calculation: PASS
+Test No. 12: Booking::Tatkal::ComputeFare() has correct fare calculation: PASS
+Test No. 13: Booking::PremiumTatkal::ComputeFare() has correct fare calculation: PASS
+Test No. 14: Booking::PremiumTatkal::ComputeFare() has correct fare calculation: PASS
+Test No. 15: Booking::GeneralBooking::CheckEligibility() executes correct eligibility check: PASS
+Test No. 16: Booking::GeneralBooking::CheckEligibility() throws the correct exception: PASS
+    Exception message - Error in Booking: Date of Reservation must be either same as or before date of Booking
+Test No. 17: Booking::LadiesBooking::CheckEligibility() executes correct eligibility check: PASS
+Test No. 18: Booking::LadiesBooking::CheckEligibility() throws the correct exception: PASS
+    Exception message - Error in Ladies Booking: Male of Age greater than 12
+Test No. 19: Booking::SeniorCitizenBooking::CheckEligibility() executes correct eligibility check: PASS
+Test No. 20: Booking::SeniorCitizenBooking::CheckEligibility() throws the correct exception: PASS
+    Exception message - Error in Senior Citizen Booking: Male of Age less than 60 years
+Test No. 21: Booking::DivyaangBooking::CheckEligibility() executes correct eligibility check: PASS
+Test No. 22: Booking::DivyaangBooking::CheckEligibility() throws the correct exception: PASS
+    Exception message - Error in Divyaang Booking: Passenger does not have a valid Disability Type and/or DivyaangID
+Test No. 23: Booking::TatkalBooking::CheckEligibility() executes correct eligibility check: PASS
+Test No. 24: Booking::TatkalBooking::CheckEligibility() throws the correct exception: PASS
+    Exception message - Error in Tatkal Booking: Tatkal Booking attempted with a gap greater than 1 Day
+Test No. 25: Booking::PremiumTatkalBooking::CheckEligibility() executes correct eligibility check: PASS
+Test No. 26: Booking::PremiumTatkalBooking::CheckEligibility() throws the correct exception: PASS
+    Exception message - Error in Premium Tatkal Booking: Premium Tatkal Booking attempted with a gap greater than 1 Day
+Test No. 27: Output streaming operator for Booking: PASS
+
+----- VERDICT : PASS -----
+
+
+Class - Divyaang
+
+Test No. 1 : Divyaang:GetDivyaangConcessionFactor - ACFirstClass - Blind : PASS
+Test No. 2 : Divyaang:GetDivyaangConcessionFactor - Executive Chair Car - Blind : PASS
+Test No. 3 : Divyaang::GetDivyaangConcessionFactor - AC 2 Tier - Blind :  PASS
+Test No. 4 : Divyaang:GetDivyaangConcessionFactor - First Class - Blind :  PASS
+Test No. 5 : Divyaang:GetDivyaangConcessionFactor - AC3Tier - Blind :  PASS
+Test No. 6 : Divyaang:GetDivyaangConcessionFactor - AC Chair Car Orthopaedically Handicapped :  PASS
+Test No. 7 : Divyaang:GetDivyaangConcessionFactor - Sleeper Cancer Patient :  PASS
+Test No. 8 : Divyaang:GetDivyaangConcessionFactor - Second Sitting TB Patient :  PASS
+Test No. 9 : Divyaang:Blind::GetName()   PASS
+Test No. 10: Divyaang:OrthopaedicallyHandicapped::GetName()   PASS
+Test No. 11: Divyaang:CancerPatient::GetName()   PASS
+Test No. 12: Divyaang:CancerPatient::GetName()   PASS
+Test No. 13: outputstream  :  PASS
+Test No. 14: Test working of polymorphic hierarchy by comparing the GetName() function return value : PASS
+Test No. 15: Test Output streaming operator for Divyaang : PASS
+
+----- VERDICT : PASS -----
+
+
+Class - Gender
+
+Test No. 1: Checking GetName for male:  PASS
+Test No. 2: Checking GetName for female:  PASS
+Test No. 3: Checking GetTitle for male:  PASS
+Test No. 4: Checking GetTitle for female:  PASS
+Test No. 5: Test Output streaming operator for Gender::Male :  PASS
+Test No. 6:  Test working of polymorphic hierarchy by comparing the GetName() function return value:  PASS
+Test No. 7:  Test Output streaming operator for Gender:  PASS
+
+----- VERDICT : PASS -----
+
+
+Class - Name
+
+Test No. 1: Test Output streaming operator : PASS
+
+----- VERDICT : PASS -----
+
+
+Class Date
+
+Test No. 1: Checking the friend output streaming operator : PASS
+Test No. 2: CCheck 'Date' construction : PASS
+Test No. 3: CCheck 'Date' construction : PASS
+Test No. 4: Checking GetDay() : PASS
+Test No. 5: Checking  GetMonth() : PASS
+Test No. 6: Checking GetYear() : PASS
+Test No. 7: Checking IsLeapYear() - Non Leap Year : PASS
+Test No. 8: Check for leap year - Non leap year : PASS
+Test No. 9: Check for leap year - leap year : PASS
+Test No. 10: Check for leap year - leap year : PASS
+Test No. 11: Calculate Age Check : PASS
+Test No. 12: Calculate Span Check (includes leap years also) : PASS
+Test No. 13: Calcualate Span without leap years : PASS
+Test No. 14: Copy Assignment Operator : PASS
+Test No. 15: Copy Assignment Operator - Not Equal : PASS
+Test No. 16: IsValid() with integer inputs - Invalid Year : PASS
+Expected Exception thrown Error in Date: Year is invalid
+Test No. 17: IsValid() with integer inputs - Invalid Month +ve : PASS
+Expected Exception thrown Error in Date: Month is invalid
+Test No. 18: IsValid() with integer inputs - Invalid Month  -ve: PASS
+Expected Exception thrown Error in Date: Month is invalid
+Test No. 19: IsValid() with integer inputs - Invalid Date : PASS
+Expected Exception thrown Error in Date: Date is invalid
+Test No. 20: IsValid() with integer inputs - Invalid Date - 29 days in February without leap year : PASS
+Expected Exception thrown Error in Date: Date is invalid
+Test No. 21: IsValid() with integer inputs - Invalid Date - 31 days in April : PASS
+Expected Exception thrown Error in Date: Date is invalid
+Test No. 22: IsValid() with integer inputs - Invalid Date - 32 days in January : PASS
+Expected Exception thrown Error in Date: Date is invalid
+Test No. 23: IsValid() with integer inputs - valid Date - 29 days in February in leap year : PASS
+Test No. 24: IsValid() with string inputs - Invalid Year : PASS
+Expected Exception thrown Error in Date: Year is invalid
+Test No. 25: IsValid() with string inputs - Invalid Month - +ve: PASS
+Expected Exception thrown Error in Date: Month is invalid
+Test No. 25: IsValid() with string inputs -Invalid Month -ve : PASS
+Expected Exception thrown Error in Date: Month is invalid
+Test No. 26: IsValid() with string inputs -Invalid Date : PASS
+Expected Exception thrown Error in Date: Date is invalid
+Test No. 27: IsValid() with string inputs -Invalid Date - 29 days without leap year : PASS
+Expected Exception thrown Error in Date: Date is invalid
+Test No. 28: IsValid() with string inputs -Invalid Date - 31 days in April : PASS
+Expected Exception thrown Error in Date: Date is invalid
+Test No. 29: IsValid() with string inputs -Invalid Date - 32 days in January: PASS
+Expected Exception thrown Error in Date: Date is invalid
+Test No. 30: IsValid() with string inputs -valid Date - 29 days in February in leap year : PASS
+Test No. 31: IsValid() with string inputs -invalid format - 1 : FALSE Valid date 29-2-2004 shows as Invalid
+Test No. 32: IsValid() with string inputs -invalid format - 2 :PASS
+Expected Exception thrown Error in Date: Date format should be DD/MM/YYYY, where DD,MM,YYYY are numeric
+Test No. 33: IsValid() with string inputs -invalid format - 3 :PASS
+Expected Exception thrown Error in Date: Date format should be DD/MM/YYYY, where DD,MM,YYYY are numeric
+Test No. 34: IsValid() with string inputs - invalid format - 4:PASS
+Expected Exception thrown Error in Date: Date format should be DD/MM/YYYY, where DD,MM,YYYY are numeric
+Test No. 35: IsValid() with string inputs - Get Date with invalid string :PASS
+Expected Exception thrown Error in Date: Date format should be DD/MM/YYYY, where DD,MM,YYYY are numeric
+Test No. 36: IsValid() with string inputs - Get date with valid string:Test No. 37: IsValid() with string inputs - Get Date with invalid string :PASS
+Expected Exception thrown Error in Date: Year is invalid
+Test No. 38: Get date with valid input :PASS
+
+----- VERDICT : PASS -----
+
+
+Class - Station
+
+Test No. 1: Output streaming operator for Station: PASS
+Test No. 2: Station::GetDistance() returns correct distance between Bangalore and Chennai: PASS
+Test No. 3: Station::GetDistance() returns correct distance between Bangalore and Delhi: PASS
+Test No. 4: Station::GetDistance() returns correct distance between Bangalore and Kolkata: PASS
+Test No. 5: Station::GetDistance() returns correct distance between Bangalore and Mumbai: PASS
+Test No. 6: Station::GetDistance() returns correct distance between Chennai and Bangalore: PASS
+Test No. 7: Station::GetDistance() returns correct distance between Chennai and Delhi: PASS
+Test No. 8: Station::GetDistance() returns correct distance between Chennai and Kolkata: PASS
+Test No. 9: Station::GetDistance() returns correct distance between Chennai and Mumbai: PASS
+Test No. 10: Station::GetDistance() returns correct distance between Delhi and Bangalore: PASS
+Test No. 11: Station::GetDistance() returns correct distance between Delhi and Chennai: PASS
+Test No. 12: Station::GetDistance() returns correct distance between Delhi and Kolkata: PASS
+Test No. 13: Station::GetDistance() returns correct distance between Delhi and Mumbai: PASS
+Test No. 14: Station::GetDistance() returns correct distance between Kolkata and Bangalore: PASS
+Test No. 15: Station::GetDistance() returns correct distance between Kolkata and Chennai: PASS
+Test No. 16: Station::GetDistance() returns correct distance between Kolkata and Delhi: PASS
+Test No. 17: Station::GetDistance() returns correct distance between Kolkata and Mumbai: PASS
+Test No. 18: Station::GetDistance() returns correct distance between Mumbai and Bangalore: PASS
+Test No. 19: Station::GetDistance() returns correct distance between Mumbai and Chennai: PASS
+Test No. 20: Station::GetDistance() returns correct distance between Mumbai and Delhi: PASS
+Test No. 21: Station::GetDistance() returns correct distance between Mumbai and Kolkata: PASS
+Test No. 22: Station::GetDistance() returns correct distance between Bangalore-Chennai and Chennai-Bangalore: PASS
+Test No. 23: Station::GetDistance() returns correct distance between Bangalore-Delhi and Delhi-Bangalore: PASS
+Test No. 24: Station::GetDistance() returns correct distance between Bangalore-Kolkata and Kolkata-Bangalore: PASS
+Test No. 25: Station::GetDistance() returns correct distance between Bangalore-Mumbai and Mumbai-Bangalore: PASS
+Test No. 26: Station::GetDistance() returns correct distance between Chennai-Delhi and Delhi-Chennai: PASS
+Test No. 27: Station::GetDistance() returns correct distance between Chennai-Kolkata and Kolkata-Chennai: PASS
+Test No. 28: Station::GetDistance() returns correct distance between Chennai-Mumbai and Mumbai-Chennai: PASS
+Test No. 29: Station::GetDistance() returns correct distance between Delhi-Kolkata and Kolkata-Delhi: PASS
+Test No. 30: Station::GetDistance() returns correct distance between Delhi-Mumbai and Mumbai-Delhi: PASS
+Test No. 31: Station::GetDistance() returns correct distance between Kolkata-Mumbai and Mumbai-Kolkata: PASS
+Test No. 32 Station::GetName() returns the correct name: PASS
+Test No. 33: Station::IsValid() throws expected exception: PASS
+    Exception message - Station Error: Station cannot have empty name
+Test No. 34: Station::IsValid() throws expected exception: PASS
+    Exception message - Station Error: Station not in Database
+Test No. 35: Station::GetDistance() throws expected exception: PASS
+    Exception message - Railways Error: Finding distance between two same Stations is not allowed
+Test No. 36: Station::GetStation() returns correctly constructed Station: PASS
+Test No. 37: Station::GetStation() throws expected exception: PASS
+    Exception message - Station Error: Station cannot have empty name
+
+----- VERDICT : PASS -----
+
+
+Class - Railways
+
+Test No. 1: Checking if Bangalore is present in the static data: PASS
+Test No. 2: Checking if Chennai is present in the static data: PASS
+Test No. 3: Checking if Delhi is present in the static data: PASS
+Test No. 4: Checking if Kolkata is present in the static data: PASS
+Test No. 5: Checking if Mumbai is present in the static data: PASS
+Test No. 6: Railways::sDistStations stores the correct distances between Bangalore and Chennai: PASS
+Test No. 7: Railways::sDistStations stores the correct distances between Bangalore and Delhi: PASS
+Test No. 8: Railways::sDistStations stores the correct distances between Bangalore and Kolkata: PASS
+Test No. 9: Railways::sDistStations stores the correct distances between Bangalore and Mumbai: PASS
+Test No. 10: Railways::sDistStations stores the correct distances between Chennai and Delhi: PASS
+Test No. 11: Railways::sDistStations stores the correct distances between Chennai and Kolkata: PASS
+Test No. 12: Railways::sDistStations stores the correct distances between Chennai and Mumbai: PASS
+Test No. 13: Railways::sDistStations stores the correct distances between Delhi and Kolkata: PASS
+Test No. 14: Railways::sDistStations stores the correct distances between Delhi and Mumbai: PASS
+Test No. 15: Railways::sDistStations stores the correct distances between Kolkata and Mumbai: PASS
+Test No. 16: Railways::GetDistance() returns the correct distances between Bangalore and Chennai: PASS
+Test No. 17: Railways::GetDistance() returns the correct distances between Bangalore and Delhi: PASS
+Test No. 18: Railways::GetDistance() returns the correct distances between Bangalore and Kolkata: PASS
+Test No. 19: Railways::GetDistance() returns the correct distances between Bangalore and Mumbai: PASS
+Test No. 20: Railways::GetDistance() returns the correct distances between Chennai and Bangalore: PASS
+Test No. 21: Railways::GetDistance() returns the correct distances between Chennai and Delhi: PASS
+Test No. 22: Railways::GetDistance() returns the correct distances between Chennai and Kolkata: PASS
+Test No. 23: Railways::GetDistance() returns the correct distances between Chennai and Mumbai: PASS
+Test No. 24: Railways::GetDistance() returns the correct distances between Delhi and Bangalore: PASS
+Test No. 25: Railways::GetDistance() returns the correct distances between Delhi and Chennai: PASS
+Test No. 26: Railways::GetDistance() returns the correct distances between Delhi and Kolkata: PASS
+Test No. 27: Railways::GetDistance() returns the correct distances between Delhi and Mumbai: PASS
+Test No. 28: Railways::GetDistance() returns the correct distances between Kolkata and Bangalore: PASS
+Test No. 29: Railways::GetDistance() returns the correct distances between Kolkata and Chennai: PASS
+Test No. 30: Railways::GetDistance() returns the correct distances between Kolkata and Delhi: PASS
+Test No. 31: Railways::GetDistance() returns the correct distances between Kolkata and Mumbai: PASS
+Test No. 32: Railways::GetDistance() returns the correct distances between Mumbai and Bangalore: PASS
+Test No. 33: Railways::GetDistance() returns the correct distances between Mumbai and Chennai: PASS
+Test No. 34: Railways::GetDistance() returns the correct distances between Mumbai and Delhi: PASS
+Test No. 35: Railways::GetDistance() returns the correct distances between Mumbai and Kolkata: PASS
+Test No. 36 : Check if all the data is valid using Railways:: IsValid(): PASS
+Test No. 37: Railways::GetDistance() Error Between Equal Stations : PASS
+    Expected Exception: Railways Error: Finding distance between two same Stations is not allowed
+Test No. 38: Railways::GetDistance() Error Between Non existent Distance : PASS
+    Expected Exception: Station Error: Station not in Database
+
+----- VERDICT : PASS -----
+
+
+Class - Passenger
+
+Test No. 1: Testing IsValid()-   Both first and last names missing : PASS
+Expected Exception thrown: Error in Passenger: Passenger must have at least one of First Name and Last Name
+Test No. 2: Testing IsValid()-   Valid Naming + aadhar + birthday + mobile no - Middle Name missing : PASS
+Test No. 3: Testing IsValid()-   Valid Naming + aadhar + birthday + mobile no - No Name missing: PASS
+Test No. 4: Testing IsValid()-   /BadAadhaar - Not 12 digits: PASS
+Expected Exception thrown: Error in Passenger: Passenger must have a 12 Digit Aadhaar Number
+Test No. 5: Testing IsValid()-  BadAadhar - Non numeric: PASS
+Expected Exception thrown: Error in Passenger: Passenger Aadhaar Number cannot contain characters
+Test No. 6: Testing IsValid()-  Bad Mobile no - non empty with length not 10: PASS
+Expected Exception thrown: Error in Passenger: Passenger must have a 10 Digit Mobile Number
+Test No. 7: Testing IsValid()-  Bad Mobile no - non empty with non numeric: PASS
+Expected Exception thrown: Error in Passenger: Passenger Mobile Number cannot contain characters
+Test No. 8: Testing IsValid()- Mobile Number is valid: PASS
+Test No. 9: Testing IsValid()- Bad Age - Not born yet: PASS
+Expected Exception thrown: Error in Passenger: Passenger has not been born yet
+Test No. 10: Testing the overloaded == operator - valid Case PASS
+Test No. 11: Testing the overloaded == operator - valid Case PASS
+Test No. 12: Testing GetPasseneger - InValid Case :  PASS
+Expection error : Error in Passenger: Passenger must have a 10 Digit Mobile Number
+Test No. 12: Test Output streaming operator for Passenger :  PASS
+
+----- VERDICT : PASS -----
+
+
+Class - Concessions : Sub Types - LadiesConcession, GeneralConcession, SeniorCitizenConcession, DivyaangConcession
+
+Test No. 1 : Concessions:GeneralConcession:GetConcessionFactor: PASS
+Test No. 2 : Concessions:LadiedConcession:GetConcessionFactor: PASS
+Test No. 3 : Concessions:SeniorCitizenConcession:GetConcessionFactor for Female: PASS
+Test No. 4 : Concessions:SeniorCitizenConcession:GetConcessionFactor for Male: PASS
+Test No. 5 : Concessions:DivyaangConcession:GetConcessionFactor - ACFirstClass - Blind : PASS
+Test No. 6 : Concessions:DivyaangConcession:GetConcessionFactor - Executive Chair Car - Blind : PASS
+Test No. 7 : Concessions:DivyaangConcession:GetConcessionFactor - AC 2 Tier - Blind : PASS
+Test No. 8 : Concessions:DivyaangConcession:GetConcessionFactor -First Class - Blind : PASS
+Test No. 9 : Concessions:DivyaangConcession:GetConcessionFactor -  AC3Tier - Blind : PASS
+Test No. 10 : Concessions:DivyaangConcession:GetConcessionFactor -  AC Chair - OC : PASS
+Test No. 11 : Concessions:DivyaangConcession:GetConcessionFactor -  Sleeper - Cancer Patient : PASS
+Test No. 12 : Concessions:DivyaangConcession:GetConcessionFactor -  Second Sitting - TB Patient : PASS
+
+----- VERDICT : PASS -----
